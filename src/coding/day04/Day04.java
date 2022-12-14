@@ -27,9 +27,9 @@ public class Day04 {
             e.printStackTrace();
         }
         solveA();
-        System.out.println("A) Sum:" + sumA);
+        System.out.println("A) Sum: " + sumA);
         solveB();
-        System.out.println("B) Sum:" + sumB);
+        System.out.println("B) Sum: " + sumB);
     }
 
     private static void solveA()

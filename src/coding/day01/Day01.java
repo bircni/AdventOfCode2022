@@ -30,7 +30,7 @@ public class Day01 {
             System.out.println("An error");
             e.printStackTrace();
         }
-        String result = "Maximum: " + Collections.max(elves) + " --> Elf: " + elves.indexOf(Collections.max(elves));
+        String result = "A) Maximum: " + Collections.max(elves) + " --> Elf: " + elves.indexOf(Collections.max(elves));
         System.out.println(result);
         // Exercise b
         int max3 = 0;
@@ -41,7 +41,7 @@ public class Day01 {
             elves3[i] = elves.indexOf(Collections.max(elvesCopy));
             elvesCopy.remove(Collections.max(elvesCopy));
         }
-        System.out.println("Maximum 3: " + max3 + " --> Elves: " + elves3[0] + ", " + elves3[1] + ", " + elves3[2]);
+        System.out.println("B) Maximum: " + max3 + " --> Elves: " + elves3[0] + ", " + elves3[1] + ", " + elves3[2]);
     }
 
 }
