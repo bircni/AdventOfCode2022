@@ -3,6 +3,9 @@
 My solutions to the [Advent of Code 2022](https://adventofcode.com/2022) challenges written
 in [Java](https://www.java.com/en/).
 
+## Results
+<!--- advent_readme_stars table --->
+
 ## Days
 
 - [Day 1](./src/coding/day01/Day01.java)
