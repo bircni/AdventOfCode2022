@@ -14,7 +14,7 @@ public class Main {
             String dayURL = "coding." + day.toLowerCase() + "." + day;
             try {
                 Class.forName(dayURL).getName();
-                System.out.println("Running " + day + " :");
+                System.out.println(day + " :");
                 Class.forName(dayURL).getMethod("main", String[].class).invoke(null, (Object) args);
                 System.out.println();
             } catch (Exception e) {
